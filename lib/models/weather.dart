@@ -1,3 +1,10 @@
+import 'package:json_annotation/json_annotation.dart';
+import 'package:json_serializable/builder.dart';
+
+part 'weather.g.dart';
+
+
+@JsonSerializable()
 class Weather {
   double? temp;
   double? lowest;
